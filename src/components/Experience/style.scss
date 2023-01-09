@@ -1,0 +1,92 @@
+.experience {
+    height: 734px;
+    background-color: #09090B;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 0 5%;
+    .menu {
+
+        h1 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 26px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .option {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #FFFFFF;
+                padding: 18px 42px 18px 36px;
+                cursor: pointer;
+
+                &.active {
+                    border-left: 2px solid #00D2DF;
+                }
+            }
+        }
+    }
+
+    .container-scroll {
+        height: 100%;
+        overflow: hidden;
+        width: 100%;
+        .details {
+            height: 734px;
+            color: white;
+            width: 100%;
+            max-width: 636px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            .title {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 20px;
+
+                span {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .company {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #00D2DF;
+            }
+
+            .resume {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 28px;
+                color: #C4C4C4;
+            }
+        }
+    }
+}

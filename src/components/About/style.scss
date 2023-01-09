@@ -1,0 +1,92 @@
+.about {
+    height: 734px;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding: 0 5%;
+    .photo {
+        background-color: #09090B;
+        border-radius: 4px;
+        height: 367px;
+        width: 367px;
+        border-left: 4px solid #00D2DF;
+        border-radius: 4px;
+    }
+
+    .infos {
+
+        .title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 40px;
+        }
+
+        .city {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        .resume {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 32px;
+            color: #C4C4C4;
+            max-width: 530px;
+            margin-bottom: 40px;
+        }
+
+        .networks {
+            margin-bottom: 40px;
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            gap: 48px;
+
+            .download {
+                border: 2px solid;
+                border-image-slice: 1;
+                border-radius: 4px;
+                border-image-source: linear-gradient(to right bottom, #D24074, #6518B4);
+                padding: 14px 32px;
+                
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    
+                    color: #FFFFFF;
+                }
+            }
+
+            .email {
+                border: 2px solid;
+                border-image-slice: 1;
+                border-radius: 4px;
+                border-image-source: linear-gradient(to right top, #9358F7, #10D7E2);
+                padding: 14px 32px;
+
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

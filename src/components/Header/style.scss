@@ -1,0 +1,33 @@
+.header {
+    height: 110px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    padding: 0 5%;
+
+    .title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #00D2DF;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #C4C4C4;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+    }
+}
