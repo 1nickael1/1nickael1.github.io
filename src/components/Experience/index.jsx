@@ -44,10 +44,10 @@ export const Experience = forwardRef(function Experience(props, ref) {
             <div className="container-scroll" ref={bannerRef}>
                 <div className="details">
                     <div className="title">
-                        Experiencia de estágio <span>Ago 2019 - Jan 2020</span>
+                        Front-end Mobile <span>Ago 2019 - Jan 2020</span>
                     </div>
                     <p className="company">
-                        XXX
+                        Marcas na Web
                     </p>
                     <p className="resume">
                         Aplicativos em React Native
@@ -55,10 +55,10 @@ export const Experience = forwardRef(function Experience(props, ref) {
                 </div>
                 <div className="details">
                     <div className="title">
-                        Experiencia de Júnior <span>Jan 2020 - Abr 2020</span>
+                        Full-Stack <span>Jan 2020 - Abr 2020</span>
                     </div>
                     <p className="company">
-                        XXX
+                        Tech.In
                     </p>
                     <p className="resume">
                         Front-end com React, Back-end com Node e PostgreSQL
@@ -66,10 +66,10 @@ export const Experience = forwardRef(function Experience(props, ref) {
                 </div>
                 <div className="details">
                     <div className="title">
-                        Experiencia de Pleno em empresa brasileira <span>Jan 2021 - Set 2021</span>
+                        Full-Stack <span>Jan 2021 - Set 2021</span>
                     </div>
                     <p className="company">
-                        XXX
+                        Triad Systems
                     </p>
                     <p className="resume">
                         Front-end com React, Back-end com Node.
@@ -77,10 +77,10 @@ export const Experience = forwardRef(function Experience(props, ref) {
                 </div>
                 <div className="details">
                     <div className="title">
-                        Experiencia de Pleno em empresa americana <span>Set 2021 - Atual</span>
+                        Front-end <span>Set 2021 - Atual</span>
                     </div>
                     <p className="company">
-                        XXX
+                        Sonco Worldwide
                     </p>
                     <p className="resume">
                         Front-end com Vue, React e React Native

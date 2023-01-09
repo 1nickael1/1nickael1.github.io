@@ -1,11 +1,12 @@
 import { forwardRef } from 'react';
 import './style.scss'
+import Profile from '../../assets/profile.png';
 
 export const About = forwardRef(function About(props, ref) {
     return (
         <div ref={ref} className="about">
             <div className="photo">
-
+                <img src={Profile} alt="" />
             </div>
             <div className="infos">
                 <p className="title">
