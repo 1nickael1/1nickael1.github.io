@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #121212;
-    padding: 0 5%;
+    padding: 0 calc((100% - 1300px) / 2);
 
     .title {
         font-style: normal;

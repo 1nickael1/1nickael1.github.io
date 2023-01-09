@@ -3,11 +3,13 @@
     background-image: url('../../assets/introduction/background-image.svg');
     background-repeat: no-repeat;
     background-position: right;
-    height: 734px;
-    padding-left: 5%;
+    height: 100vh;
+    padding-left: calc(calc((100% - 1300px) / 2) + 20px);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    // align-items: center;
+    
     gap: 3%;
 
     .default {
@@ -42,6 +44,7 @@
             border-image-source: linear-gradient(to right top, #9358F7, #10D7E2);
             padding: 14px 32px;
             text-decoration: none;
+            background-color: #09090B;
 
             p {
                 font-style: normal;
@@ -60,6 +63,7 @@
             border-image-source: linear-gradient(to left bottom, #D24074, #6518B4);
             padding: 14px 32px;
             text-decoration: none;
+            background-color: #09090B;
 
             p {
                 font-style: normal;
