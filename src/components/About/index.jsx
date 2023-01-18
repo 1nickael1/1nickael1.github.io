@@ -16,18 +16,21 @@ export const About = forwardRef(function About(props, ref) {
                     Brasilia
                 </p>
                 <p className="resume">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id egestas dui. Nullam finibus aliquam enim quis faucibus. Aenean ac commodo dolor, nec bibendum velit.
+                    Desenvolvedor Front-end com Vue, React e React Native. 
+                    <br />
+                    <br />
+                    Em busca de projetos que atinjam pessoas pelo mundo.
                 </p>
                 <div className="networks">
 
                 </div>
                 <div className="buttons">
-                    <div className="download">
+                    <a className="download" target="_blank" href='/Profile.pdf'>
                         <p>Currículo</p>
-                    </div>
-                    <div className="email">
+                    </a>
+                    <a className="email" href='mailto:qaznickael@protonmail.com'>
                         <p>E-mail</p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
